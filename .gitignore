@@ -1,0 +1,5 @@
+python/
+.sconsign.dblite
+.sconf_temp
+config.log
+_build.*

@@ -1,0 +1,21 @@
+# Core build system used by other meta packages.
+setupRequired(sconsUtils)
+
+# Core middleware packages.
+setupRequired(daf_butler)
+setupRequired(pipe_base)
+setupRequired(ctrl_mpexec)
+setupRequired(ctrl_bps)
+
+# Packages critical to middleware and supported by the
+# middleware team that depend on C++ stack packages.
+setupRequired(obs_base)
+
+# BPS plugins.
+setupRequired(lsst_bps_plugins)
+
+# Middleware packages that provide additional
+# functionality without depending on pipeline
+# C++ packages.
+setupRequired(dax_obscore)
+setupRequired(daf_butler_migrate)
