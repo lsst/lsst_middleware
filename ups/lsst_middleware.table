@@ -4,6 +4,10 @@ setupRequired(pipe_base)
 setupRequired(ctrl_mpexec)
 setupRequired(ctrl_bps)
 
+# Packages critical to middleware and supported by the
+# middleware team that depend on C++ stack packages.
+setupRequired(obs_base)
+
 # BPS plugins.
 setupRequired(lsst_bps_plugins)
 
