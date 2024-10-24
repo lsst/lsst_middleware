@@ -1,3 +1,6 @@
+# Core build system used by other meta packages.
+setupRequired(sconsUtils)
+
 # Core middleware packages.
 setupRequired(daf_butler)
 setupRequired(pipe_base)
