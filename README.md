@@ -1,2 +1,3 @@
 # lsst_middleware
-EUPS metapackage depending on all the core pipeline middleware packages
+
+EUPS metapackage depending on all the core pipeline middleware packages plus useful extensions.
