@@ -19,3 +19,4 @@ setupRequired(lsst_bps_plugins)
 # C++ packages.
 setupRequired(dax_obscore)
 setupRequired(daf_butler_migrate)
+setupRequired(daf_butler_admin)
